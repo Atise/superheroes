@@ -1,16 +1,18 @@
-
-
 .hero-button-row {
   display: table-cell;
   width: 490px;
 }
+
 .hero-button-flex-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .hero-button-container {
   display: flex;
   justify-content: center;
   width: 120px;
 }
+
+/*# sourceMappingURL=app.component.css.map */
