@@ -14,6 +14,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatSidenavModule } from "@angular/material/sidenav";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import {MatButtonModule} from "@angular/material/button";
     MatSidenavModule,
     MatToolbarModule,
     MatButtonModule,
+    MatIconModule,
   ],
   exports: [
     BrowserModule,
