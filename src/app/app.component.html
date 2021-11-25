@@ -1,3 +1,26 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav role="navigation">
+<p>I am the sidenav</p>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <div>
+        <button (click)="sidenav.toggle()">Toggle Sidenav</button>
+        <div>Logo</div>
+        <div>
+          <!--Lägg applikationens länkar
+          <a ></a>
+          -->
+        </div>
+      </div>
+    </mat-toolbar>
+    <main>
+      <!--Lägg till alla selectors till komponenter här så att de får en sidnav-->
+    </main>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
 <section>
   <div class="hero-button-row">
     <div class="hero-button-flex-container">
@@ -19,11 +42,9 @@
 <!--
 
 Status på projekt:
-Behöver kolla på Tutorial för att få info om material.module.ts.
 
 Superheros: film 3.
 
-Udemy, navbar: lektion 39
-
+Udemy, navbar: lektion 41
 
 -->
