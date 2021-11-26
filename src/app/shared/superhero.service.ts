@@ -17,6 +17,10 @@ export class SuperheroService {
     return this.httpClient.get<SuperHero>(this.url+this.accessToken + '/search' + name);
   }
 
+  loadStatsSuperHeroes(characterId:string): Observable<SuperHero> {
+    return this.httpClient.get<SuperHero>(this.url+this.accessToken + '/' + characterId + '/' + 'powerstats');
+  }
+
   getSuperHeroes() {
     this.httpClient.get (this.url+this.accessToken);
   }
